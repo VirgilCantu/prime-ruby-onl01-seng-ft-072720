@@ -1,1 +1,4 @@
-# Add  code here!
+def prime?(interger) 
+interger.to_a
+
+end
