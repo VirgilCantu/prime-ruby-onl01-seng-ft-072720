@@ -7,5 +7,8 @@ elsif
 i = 2
 n % i == 0
 i += 1
+false
+else
+  true
 end
 end
