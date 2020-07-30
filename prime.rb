@@ -1,4 +1,5 @@
-def prime?(interger) 
+require 'pry'
+def prime?(interger)
 interger.to_a
-
+binding.pry
 end
