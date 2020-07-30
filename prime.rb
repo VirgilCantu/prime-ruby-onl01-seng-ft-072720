@@ -1,6 +1,6 @@
 require 'pry'
 
 def prime?(interger)
-  binding.pry
+# binding.pry
 
 end
