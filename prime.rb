@@ -1,13 +1,5 @@
 require 'pry'
 
 def prime?(n)
-if n <= 1
-  false
-elsif
-i = 2
-n % i == 0
-false
-else
-  true
-end
+  (2..n-1).none { |divisor| n % divisor == 0  }
 end
