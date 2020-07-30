@@ -4,6 +4,7 @@ def prime?(n)
 if n <= 1
   false
 elsif
-counter = 2
+i = 2
+n % i == 0 
 end
 end
